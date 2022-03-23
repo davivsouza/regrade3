@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Regra de 3</title>
-</head>
-<body>
-  <main></main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Regra de 3</title>
+  </head>
+  <body>
+    <header>
+      <h1>Regra de 3 Simples</h1>
+    </header>
+    <main id="container">
+      <section class="boxContent">
+        <div class="firstLine">
+          <input type="text" id="value1" placeholder="0" tabindex="0" />
+          <input type="text" id="value3" value="X" />
+        </div>
+        <div class="secondLine">
+          <input type="text" id="value2" placeholder="0" tabindex="1" />
+          <input type="text" id="value4" placeholder="0" tabindex2 />
+        </div>
+      </section>
+      <button onclick="calc()">Calculate!</button>
+      <div id="resultado"></div>
+    </main>
+    <footer>
+      <p>
+        Made with ❤️ by Davi V. Souza
+        <a href="https://github.com/davivsouza">github</a>
+      </p>
+    </footer>
+    <div id="modal"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
